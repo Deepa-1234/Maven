@@ -15,6 +15,7 @@ public class AppTest {
 		App obj=new App();
 		ResourceBundle b=ResourceBundle.getBundle("commonData");
 		Assert.assertEquals(0, obj.userLogin(b.getString("username"),b.getString("invalidpwd")));
+		
 	}
 	@Test
 	public void testLogin2(){
